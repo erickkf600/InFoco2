@@ -1,0 +1,33 @@
+.swiper-container
+  width: 100%
+  padding-top: 50px
+  padding-bottom: 50px
+  
+.swiper-slide
+  background-position: center
+  background-size: cover
+  width: 400px
+  height: 400px
+  -webkit-box-reflect: below 0 -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(60%, transparent) , to(rgba(250, 250, 250, 0.2)))
+  @include full-hd
+    width: 540px
+    height: 540px
+  @include celular
+    width: 300px
+    height: 300px
+  @include celular-md
+    width: 200px
+    height: 200px 
+  @include celular-xs
+    width: 150px
+    height: 150px
+  &:after
+    content: attr(Parceiros)
+    position: absolute
+    bottom: 0
+    left: 0
+    transform: scaleY(-1)
+    ransform-origin: bottom
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.5) 80%)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent 
