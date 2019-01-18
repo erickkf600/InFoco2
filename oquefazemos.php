@@ -5,10 +5,7 @@
                   <h2>Nós fazemos o seu negócio ganhar mais<p>destaque em um piscar de olhos.</p></h2>
                </div>
                <article>
-                  <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, ves<br/>
-                     tibulum at eros. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue.<br/>
-                     Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas mollis interdum!
-                  </p>
+                  <p>A Infoco conta com uma plataforma de negócios, que tem como parceiros empresas de vários segmentos que, </p><p>de forma mútua, disponibiliza seus serviços e produtos (com descontos especiais) </p><p>fortalecendo uma rede de parcerias, gerando um negócio rentável a todos!</p>
                </article>
                <!-- four boxes  -->
                <div class="row simbolos">

@@ -15,7 +15,7 @@
     <link href="css/animate.min.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
-<body class="module-home">
+<body>
     <header role="header" class="header-top" id="headere-top">
         <?php include   "header.php" ?>
     </header>
@@ -23,10 +23,10 @@
         <?php include "logos.php"; include "oquefazemos.php"; include "_carousel.php"; include "_conteudo.php"?>
     </main>
     <footer class="footer"><?php include "footer.php" ?></footer>
-
-<script src="js/jquery.min.js" type="text/javascript"></script>
-<script src="js/bootstrap.min.js" type="text/javascript"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
-<script src="js/main.js" type="text/javascript"></script>
+    
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
+    <script src="js/main.js" type="text/javascript"></script>
 </body>
 </html>

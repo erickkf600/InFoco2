@@ -9,61 +9,127 @@
 </script>
 <section>
 	<div class="container-fluid mt-4">
-		<div class="row">
-			<article class="col-lg-10">
+		<div class="row" id="tela-dividida">
+			<article class="article col-lg-10">
 				<div class="container col-lg-12">
-					<div class="row">
-						<ul class="cards">
-							<li class="cards-item col-lg-3">
-								<div class="card">
-									<div class="card-image"><img src="imgs/empresa.png" width="100%"></div>
-									<div class="card-content">
-										<div class="card-title">Nome da Empresa</div>
-										<button class="btn btn-block card-btn">Visitar</button>
-									</div>
-								</div>
-							</li>
-
-							<li class="cards-item col-lg-3">
-								<div class="card">
-									<div class="card-image"><img src="imgs/empresa.png" width="100%"></div>
-									<div class="card-content">
-										<div class="card-title">Nome da Empresa</div>
-										<button class="btn btn-block card-btn">Visitar</button>
-									</div>
-								</div>
-							</li>
-
-							<li class="cards-item col-lg-3">
-								<div class="card">
-									<div class="card-image"><img src="imgs/empresa.png" width="100%"></div>
-									<div class="card-content">
-										<div class="card-title">Nome da Empresa</div>
-										<button class="btn btn-block card-btn">Visitar</button>
-									</div>
-								</div>
-							</li>
-
-							<li class="cards-item col-lg-3">
-								<div class="card">
-									<div class="card-image"><img src="imgs/empresa.png" width="100%"></div>
-									<div class="card-content">
-										<div class="card-title">Nome da Empresa</div>
-										<button class="btn btn-block card-btn">Visitar</button>
-									</div>
-								</div>
-							</li>
-						</ul>	
+					<div class="categ-title">
+						<h4>Novidades</h4>
 					</div>
+					<div class="swiper-container" id="categ-slides">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="cards">
+									<div class="cards-item">
+										<div class="card">
+											<div class="card-image"><img src="imgs/empresa.png" width="100%"></div>
+											<div class="card-content">
+												<div class="card-title">Nome da Empresa</div>
+												<button class="btn btn-block card-btn">Visitar</button>
+											</div>
+										</div>
+									</div>	
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="cards">
+									<div class="cards-item">
+										<div class="card">
+											<div class="card-image"><img src="imgs/empresa.png" width="100%"></div>
+											<div class="card-content">
+												<div class="card-title">Nome da Empresa</div>
+												<button class="btn btn-block card-btn">Visitar</button>
+											</div>
+										</div>
+									</div>	
+								</div>
+							</div>
+						</div>
+						<div class="next-back">
+							<div class="voltar"></div>
+							<div class="proximo"></div>
+						</div>
+					</div>
+					<div class="row text-center" id="populares">
+						<div class="categ-title">
+							<h4>Mais populares</h4>
+						</div>
+						<div class="cards col-6 col-sm-6 col-md-4">
+							<div class="cards-item">
+								<div class="card">
+									<div class="card-image"><img src="imgs/empresa.png" width="100%"></div>
+									<div class="card-content">
+										<div class="card-title">Nome da Empresa</div>
+										<button class="btn btn-block card-btn">Visitar</button>
+									</div>
+								</div>
+							</div>	
+						</div>
+						<div class="cards col-6 col-sm-6 col-md-4">
+							<div class="cards-item">
+								<div class="card">
+									<div class="card-image"><img src="imgs/empresa.png" width="100%"></div>
+									<div class="card-content">
+										<div class="card-title">Nome da Empresa</div>
+										<button class="btn btn-block card-btn">Visitar</button>
+									</div>
+								</div>
+							</div>	
+						</div>
+						<div class="cards col-6 col-sm-6 col-md-4">
+							<div class="cards-item">
+								<div class="card">
+									<div class="card-image"><img src="imgs/empresa.png" width="100%"></div>
+									<div class="card-content">
+										<div class="card-title">Nome da Empresa</div>
+										<button class="btn btn-block card-btn">Visitar</button>
+									</div>
+								</div>
+							</div>	
+						</div>
+
+						<div class="cards col-6 col-sm-6 col-md-4">
+							<div class="cards-item">
+								<div class="card">
+									<div class="card-image"><img src="imgs/empresa.png" width="100%"></div>
+									<div class="card-content">
+										<div class="card-title">Nome da Empresa</div>
+										<button class="btn btn-block card-btn">Visitar</button>
+									</div>
+								</div>
+							</div>	
+						</div>
+						<div class="cards col-6 col-sm-6 col-md-4">
+							<div class="cards-item">
+								<div class="card">
+									<div class="card-image"><img src="imgs/empresa.png" width="100%"></div>
+									<div class="card-content">
+										<div class="card-title">Nome da Empresa</div>
+										<button class="btn btn-block card-btn">Visitar</button>
+									</div>
+								</div>
+							</div>	
+						</div>
+						<div class="cards col-6 col-sm-6 col-md-4">
+							<div class="cards-item">
+								<div class="card">
+									<div class="card-image"><img src="imgs/empresa.png" width="100%"></div>
+									<div class="card-content">
+										<div class="card-title">Nome da Empresa</div>
+										<button class="btn btn-block card-btn">Visitar</button>
+									</div>
+								</div>
+							</div>	
+						</div>
+					</div>	
 				</div>
 			</article>
-			<aside class="col-lg-2">
+			<aside class="asaide col-lg-2 text-center">
 				<div class="side-card">
 					<div class="fb-page" data-href="https://www.facebook.com/InFoco-Marketing-Multin%C3%ADvel-1184742348366469/" data-height="100%" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
 						<blockquote cite="https://www.facebook.com/InFoco-Marketing-Multin%C3%ADvel-1184742348366469/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/InFoco-Marketing-Multin%C3%ADvel-1184742348366469/"></a></blockquote>
 					</div>
 				</div>
-				<div class="card side-card">
+				<div class="card side-card no-mobile">
 					<div class="card-body">
 						<h5 class="card-title">Card title</h5>
 						<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -74,31 +140,20 @@
 						<a href="#" class="card-link">Another link</a>
 					</div>
 				</div>
-				<div id="bs4-vertical-slide-carousel" class="carousel bs-vertical-slider slide pt-5" data-ride="carousel">
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img class="d-block mx-auto img-fluid" src="https://www.jquery-az.com/bootstrap4/images/BS-slide-1.jpeg"
-							alt="Slide Number 1">
+				<div class="swiper-container no-mobile" id="vertical-slider">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img class="img-fluid" src="https://www.jquery-az.com/bootstrap4/images/BS-slide-1.jpeg"
+							alt="Slide Number 1" width="100%">
 						</div>
-						<div class="carousel-item">
-							<img class="d-block mx-auto img-fluid" src="https://www.jquery-az.com/bootstrap4/images/BS-slide-4.jpeg"
-							alt="Slide Number 2">
+						<div class="swiper-slide">
+							<img class="img-fluid" src="https://www.jquery-az.com/bootstrap4/images/BS-slide-4.jpeg" width="100%">
 						</div>
-						<div class="carousel-item">
-							<img class="d-block mx-auto img-fluid" src="https://www.jquery-az.com/bootstrap4/images/BS-slide-3.jpeg"
-							alt="Slide Number 3">
+						<div class="swiper-slide">
+							<img class="img-fluid" src="https://www.jquery-az.com/bootstrap4/images/BS-slide-3.jpeg" width="100%">
 						</div>
-						<div class="carousel-item">
-							<img class="d-block mx-auto img-fluid" src="https://www.jquery-az.com/bootstrap4/images/BS-slide-4.jpeg"
-							alt="Slide Number 4">
-							<!--Captions for the slides go here -->
-							<div class="carousel-caption text-danger d-none d-sm-block">
-								<h5>Vertical Carousel Demo</h5>
-								<p class="text-light">Slides moving vertically rather default horizontal
-									<button class="btn btn-outline-info btn-lg">More info</button>
-								</p>
-							</div>
-							<!--Captions ending here for slide 3-->
+						<div class="swiper-slide">
+							<img class="img-fluid" src="https://www.jquery-az.com/bootstrap4/images/BS-slide-4.jpeg" width="100%">
 						</div>
 					</div>
 				</div>

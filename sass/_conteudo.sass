@@ -1,0 +1,118 @@
+.asaide
+  border: solid 1px #ccc
+  padding: 0 5px 0 5px 0
+  @include border-radius(20px)
+  margin-top: 10rem
+  @include tablet
+    border: none
+    margin: 0
+.side-card 
+  margin-top: 4rem
+  @include celular
+    display: flex
+    justify-content: center
+.no-mobile
+  @include tablet
+    display: none
+    
+#vertical-slider   
+  padding: 0
+  margin: 3rem 0 3rem 0
+
+.article, #populares
+  padding: 0 5rem 0 5rem
+  @include tablet-mini
+    padding: 0
+.categ-title
+  padding-top: 75px
+  line-height: 20px
+  color: #71717c
+  text:
+    transform: uppercase
+    align: center
+  h4 
+    font: 
+      size: 30px 
+      weight: 600 
+    &:after
+      content: ""
+      display: block
+      margin: 0 auto
+      width: 95px
+      height: 3px
+      @extend %back-laranja
+      margin: 17px auto
+      margin-bottom: 0
+.btn
+  background-color: white
+  border: 1px solid #cccccc
+  color: #696969
+  padding: 0.5rem
+  text-transform: lowercase
+.cards
+  list-style: none
+  padding: 20px
+  @include celular
+    padding: 0
+  background-color: white
+  border-radius: 0.25rem
+
+.cards-item
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  padding: 1rem
+.card-image
+    @include border-radius(.25rem .25rem 0 .25rem)
+    overflow: hidden
+    position: relative
+.card-title
+  color: #696969
+  font-size: 1.25rem
+  font-weight: 300
+  letter-spacing: 2px
+  text:
+    transform: uppercase   
+    align: center 
+//SLIDES CONFIGURAÇÕES
+
+#categ-slides
+  background: #FFF 
+  position: relative
+  .next-back
+    display: flex  
+    justify-content: center
+    @include celular
+      margin-top: 20px
+    .proximo
+      position: absolute
+      top: 50%
+      z-index: 99
+      right: 0
+      &:focus
+        outline: none
+      @include celular
+        position: static 
+        margin: 0 5rem 0 5rem 
+      &:before
+        content: '\f054'
+        font:
+          family: "Font Awesome 5 Free" 
+          weight: 900
+          size: 30px 
+    .voltar
+      position: absolute
+      top: 50%
+      z-index: 99
+      left: 0
+      &:focus
+        outline: none
+      @include celular
+        position: static
+        margin: 0 5rem 0 5rem 
+      &:before
+        content: '\f053'
+        font:
+          family: "Font Awesome 5 Free" 
+          weight: 900
+          size: 30px 

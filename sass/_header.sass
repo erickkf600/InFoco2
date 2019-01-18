@@ -110,7 +110,7 @@ header[role="header"].header-top
     font:
       family: "Font Awesome 5 Free" 
       weight: 900
-      size: 15px  
+      size: 20px       
 
 .pesq-icon.close 
   padding: 0 0 0 50px    
@@ -121,15 +121,20 @@ header[role="header"].header-top
     font:
        family: "Font Awesome 5 Free" 
        weight: 900
-       size: 15px  
+       size: 20px
+
 .search-box
   @extend %p-fixed
   right: 180px
   top: 60px
   width: 0
   z-index: 5
+  @include full-hd
+    right: 470px  
   @include tablet
-    right: 40px
+    right: 80px
+  @include celular
+    right: 40px   
   border-bottom: 1.5px solid #fff
   @include transition (all 1s) 
   .search-input
@@ -146,7 +151,9 @@ header[role="header"].header-top
 .search-box.exibir
   width: 65%
   @include tablet
-    width: 70%
+    width: 75%
+  @include full-hd
+    width: 45%   
   opacity: 1
 
 #navbar.sumir   
@@ -214,7 +221,7 @@ header[role="header"].header-top .navbar-fixed-top
     padding-top: 0
     position: static
   h1 img
-    width: 40%
+    width: 50%
   nav
     padding-top: 7px
   .search-box
